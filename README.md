@@ -1,4 +1,4 @@
-# CellCountProtocol
+# Cell Counting Protocol - Step by Step Instructions
 
 **Image Preparation through Adobe Photoshop and Illustrator**
 
@@ -16,3 +16,6 @@
 6. For the histogram matching step, find an image that has the desired color scheme. Rename it as your reference and add the path name of that image onto the first line of code of the second box.
 7. Click the icon “run” on the top panel of the Jupyter Notebook and wait until the first box finishes running. Repeat until you reach the end of the code.
 8. Check to ensure that the size of the blobs marked on the last image of the pipeline match the cell sizes well. If not, personalize min blob sizes based on target cell size. This sets a threshold of what the pipeline will call as a cell based on a minimum size. The min can be changed by the min_sigma number on the 2nd line of code of the last box in the pipeline
+
+For more information, email kimhannah321@gmail.com
+For Google Drive document formatting: https://docs.google.com/document/d/1jtrBsgWICPx-WDoTu_miXptHGRsqiZSQr0mjqK8tdGo/edit?usp=sharing
