@@ -8,7 +8,7 @@
 **Accessing the Pipeline**
 
 3. Launch Jupyter Notebook
-4. Download the .ipynb file or copy and paste the contents of the file named “Pipeline_StepByStep_H&E” from either Github or Google Colab. Access and open the .ipynb file after launching Jupyter notebook. Google Colab: https://colab.research.google.com/drive/14p_7B5OBNWr_dpE888clOuyoubSd3aha?usp=sharing
+4. Download the .ipynb file or copy and paste the contents of the file named “Pipeline_StepByStep_H&E” from either Github or Google Colab. 
 
 **Importing the Image and Running the Pipeline**
 
