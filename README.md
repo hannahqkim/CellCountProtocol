@@ -1,4 +1,4 @@
-# Cell-Counting-Laplacian-Edge-Detection
+# Cell Counting Histological Retinal Nuclei
 
 A tutorial [Jupyter](https://jupyter.org/) Notebook illustrating how to use the image analysis pipeline to identity and count retinal cell nuclei. 
 
