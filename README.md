@@ -14,7 +14,7 @@ Click the icons below to launch one of the two options:
 
 1. via Google colab
 
-[![Open In Colab](https://drive.google.com/file/d/1vV6GPVb2wVChEQ7q8G034cqXun08t0C1/view?usp=sharing)
+[Open In Colab](https://drive.google.com/file/d/1vV6GPVb2wVChEQ7q8G034cqXun08t0C1/view?usp=sharing)
 
 ## Running the Notebook locally
 
