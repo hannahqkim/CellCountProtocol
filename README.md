@@ -1,5 +1,30 @@
-# Cell Counting Protocol - Step by Step Instructions
+# Cell-Counting-Laplacian-Edge-Detection
 
+A tutorial [Jupyter](https://jupyter.org/) Notebook illustrating how to use the image analysis pipeline to identity and count retinal cell nuclei. 
+
+## Viewing the Notebook
+
+Simply open the [Notebook link here](https://github.com/hannahqkim/CellCountProtocol/blob/main/Pipeline_StepByStep.ipynb).
+
+Alternatively view the Notebook by pasting the address into [nbviewer](https://nbviewer.jupyter.org/).
+
+## Running the Notebook online
+
+Click the icons below to launch one of the two options:
+
+1. via Google colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cVcKIHqDY_RckUhGlx6yx_TauFgpA3MJ/view?usp=sharing)
+
+## Running the Notebook locally
+
+First clone this repository:
+```
+git clone https://github.com/hannahqkim/CellCountProtocol;
+cd CellCountProtocol
+```
+
+## General pipeline details
 **Image Preparation through Adobe Photoshop and Illustrator**
 
 1. Segment the tissue according to how you would like to characterize cell quantity. Segmentation should include excluding any extraneous tissue or artifacts that should not be included in the cell detection process.For example, during our segmentation, we excluded bubbles, retinal pigmented epithelium, and other segments of tissue that we did not wish to characterize cell populations in. We then divided retinal tissue into ten bins so that we could get an idea of cell populations in different regions of the retina. If the tissue has multiple distinct cell layers, segment the tissue by cell layer to ensure you are counting comparable cells (this is relevant when setting the min/max sizes for Laplacian of Blob detection later). We did this by separating the ganglion cell layer, inner nuclear layer, and outer nuclear layer, each of which have cells with different diameters. For this study, we divided and separated the tissue in Adobe Illustrator and Adobe Photoshop using the pen, wand, and lasso tools. 
